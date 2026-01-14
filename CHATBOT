@@ -1,0 +1,24 @@
+print("===================================")
+print("Selamat Datang di Chatbot Pertamamu!")
+print("===================================\n")
+
+print("Halo! Aku chatbot sederhana.")
+print("Aku ingin mengenalmu lebih dekat \n")
+
+nama = input(" Siapa nama kamu? : ")
+usia = input(" Berapa usia kamu? : ")
+makanan_favorit = input(" Apa makanan favorit kamu? : ")
+
+print("\n===================================")
+print(" Ringkasan Tentang Kamu")
+print("===================================")
+
+print(
+    f"Halo {nama}! \n"
+    f"Kamu berusia {usia} tahun dan makanan favoritmu adalah {makanan_favorit}. \n"
+    f"Senang bisa mengenalmu, semoga harimu menyenangkan! ✨"
+)
+
+print("\n===================================")
+print("Chatbot selesai dijalankan. Terima kasih!")
+print("===================================")
